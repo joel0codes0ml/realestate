@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", system-ui, sans-serif;
+  --font-display: "Montserrat", system-ui, sans-serif;
+  
+  --color-navy-950: #090D16;
+  --color-navy-900: #0F172A;
+  --color-navy-800: #1E293B;
+  --color-navy-700: #334155;
+  --color-gold-200: #E2D4B7;
+  --color-gold-500: #C8A96A;
+  --color-gold-600: #B59353;
+  --color-gold-700: #9E7D3F;
+  --color-success: #22C55E;
+}
+
+/* Custom styles for luxury touch */
+.glass-panel {
+  background: rgba(15, 23, 42, 0.75);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(200, 169, 106, 0.2);
+}
+
+.glass-light {
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.gold-border-gradient {
+  border-image: linear-gradient(to right, #C8A96A, #E2D4B7, #9E7D3F) 1;
+}
+
+/* Custom scroll bar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0F172A;
+}
+::-webkit-scrollbar-thumb {
+  background: #C8A96A;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #B59353;
+}

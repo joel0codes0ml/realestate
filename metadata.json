@@ -1,0 +1,6 @@
+{
+  "name": "Exodus Realty Inc",
+  "description": "Premium Nairobi-based luxury real estate company specializing in sales, rentals, investments, and property management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
